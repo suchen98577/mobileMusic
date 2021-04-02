@@ -1,0 +1,89 @@
+html,
+body,
+#root,
+.App {
+    width: 100%;
+    height: 100%;
+}
+
+.index .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 2.2rem;
+}
+
+.index .header {
+    width: 100%;
+    height: 1.68rem;
+    background-color: #D43c33;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.index .header .title {
+    color: #fff;
+    display: block;
+    line-height: 1.68rem;
+    padding-left: .5rem;
+
+}
+
+.index .header .pic {
+    height: 80px;
+
+    position: absolute;
+    left: 0;
+    top: 0rem;
+    bottom: -0.2rem;
+    width: 100px;
+
+    transform: scale(0.5);
+
+}
+
+.index .header .down {
+    position: relative;
+    top: .46rem;
+
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    color: #d43c33;
+    background-color: #fff;
+    border-radius: 37.5%/100%;
+}
+
+.index .navBar {
+    height: 0.8rem;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    z-index: 999 !important;
+}
+
+.navBar a {
+    flex: 1;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+.navBar a.active span {
+    border-bottom: 2.2px solid #d43c33;
+}
+
+.navBar a span {
+    padding-bottom: 5.5px !important;
+}
+
+.active {
+    color: #DD001B !important;
+
+}

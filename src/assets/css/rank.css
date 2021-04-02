@@ -1,0 +1,67 @@
+.rank{
+
+    width: 100%;
+    height: 100%;
+}
+.rank .top{
+      padding-top: 38.9%;
+      background: url("../../assets/images/hot_music_bg_3x.jpg") 0 0 / 100% 100% no-repeat;
+      position: relative;
+          margin-top: 125px;
+}
+
+
+.rank .top span{
+      font-size: 0.1rem;
+      color: #fff;
+      margin-top: 0.1rem;
+}
+
+
+.my-list .spanitem {
+    font-size: .24rem;
+    color: #888;
+
+}
+.my-list i{
+    font-size: .24rem;
+}
+.am-list-item {
+    height: 1.14rem
+}
+
+.father:nth-child(1) {
+color: red !important;
+}
+.father:nth-child(2) {
+color: red;
+}
+.father:nth-child(3) {
+color: red;
+}
+.number{
+    display: inline-block;
+   float: left;
+      font-size: 17px !important;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.header-img{
+ background: url("../../assets/images/index_icon_2x.png") no-repeat;
+ width: 3rem;
+ height: 1.54rem;
+ background-size: 3.5rem 2rem;
+ background-position: -0.5rem -0.5rem;
+}
+.header-items{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.3rem;
+}
